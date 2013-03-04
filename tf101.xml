@@ -98,6 +98,8 @@
   <project path="system/vold" name="platform/system/vold" />
 
   <!-- Galaxy S2 things -->
-  <project path="device/asus/tf101" name="android-device-tf101" remote="corvusmod" revision="jellybean_4.2" />
+  <project path="device/asus/tf101" name="device_asus_tf101" remote="corvusmod" revision="jellybean_4.2" />
+  <project path="device/asus/tf101/kernel" name="kernel_asus_tf101-lumpy" remote="corvusmod" revision="dev" />
+
 
 </manifest>
