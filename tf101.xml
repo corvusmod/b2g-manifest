@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="git://github.com/mozilla-b2g/" name="b2g"/>
-  <remote fetch="http://git.mozilla.org/" name="mozillaorg"/>
+  <remote name="mozillaorg" fetch="https://git.mozilla.org/releases"/>
   <remote fetch="git://codeaurora.org/" name="caf"/>
   <remote fetch="git://android.git.linaro.org/" name="linaro"/>
   <remote name="corvusmod" fetch="https://github.com/corvusmod/"/>
