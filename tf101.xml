@@ -13,7 +13,7 @@
 	  fetch="git://github.com/corvusmod/" />
   <remote name="mozillaorg"
           fetch="https://git.mozilla.org/releases"/>
-  remote name="vlad"
+  <remote name="vlad"
 	  fetch="git://github.com/vvuk/" />
 
   <default revision="refs/tags/android-android-4.2.1_r1.2"
