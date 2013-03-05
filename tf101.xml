@@ -12,7 +12,7 @@
 <project remote="github" name="mozilla-b2g/B2G" path="device/qcom/b2g_common/mozilla-b2g" revision="refs/heads/master"/>
 <project remote="github" name="mozilla-b2g/gaia" path="gaia" revision="refs/heads/master"/>
 <project remote="github" name="mozilla-b2g/mozilla-central" path="gecko" revision="refs/heads/master"/>
-<project name="moztt" path="external/moztt" remote="b2g" revision="master"/>
+<project remote="github" name="mozilla-b2g/moztt" path="moztt" revision="refs/heads/master"/>
 
 <!-- Stock Android things -->
 <project name="quic/b2g/build" path="device/qcom/b2g_common" revision="refs/heads/master"/>
