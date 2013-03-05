@@ -116,8 +116,8 @@
   <project path="frameworks/av" name="platform/frameworks/av" />
   <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
+  <project path="frameworks/opt/telephony" name="platform/frameworks/telephony" />
   <project path="frameworks/support" name="platform/frameworks/support" />
-  <project path="frameworks/telephony" name="platform/frameworks/telephony" />
   <project path="frameworks/native" name="platform/frameworks/native" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
