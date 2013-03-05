@@ -4,7 +4,7 @@
   <remote fetch="http://git.mozilla.org/" name="mozillaorg"/>
   <remote fetch="git://codeaurora.org/" name="caf"/>
   <remote fetch="git://android.git.linaro.org/" name="linaro"/>
-  <remote name="assembla" fetch="git@git.assembla.com:"/>
+  <remote name="corvusmod" fetch="https://github.com/corvusmod/"/>
   <remote name="QRD" fetch="git://codeaurora.org/quic/qrd-android" />
   <default remote="QRD" revision="refs/tags/R8625SSNSKQLYA10145451" />
 
