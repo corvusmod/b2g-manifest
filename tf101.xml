@@ -36,6 +36,7 @@
   <project name="platform/external/dbus" path="external/dbus"/>
   <project name="platform/external/dhcpcd" path="external/dhcpcd"/>
   <project name="platform/external/dnsmasq" path="external/dnsmasq" remote="caf" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
+  <project name="platform/external/doclava" path="external/doclava"/>
   <project name="platform/external/e2fsprogs" path="external/e2fsprogs" remote="caf" revision="refs/tags/AU_LINUX_GECKO_ICS_STRAWBERRY.01.00.00.19.161"/>
   <project name="platform/external/expat" path="external/expat" remote="caf" revision="refs/tags/AU_LINUX_GECKO_ICS_STRAWBERRY.01.00.00.19.161"/>
   <project name="platform/external/fdlibm" path="external/fdlibm" remote="caf" revision="refs/tags/AU_LINUX_GECKO_ICS_STRAWBERRY.01.00.00.19.161"/>
