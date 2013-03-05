@@ -49,6 +49,7 @@
   <project name="platform/external/iptables" path="external/iptables" remote="caf" revision="refs/tags/AU_LINUX_GECKO_ICS_STRAWBERRY.01.00.00.19.161"/>
   <project name="platform/external/jhead" path="external/jhead" remote="caf" revision="refs/tags/AU_LINUX_GECKO_ICS_STRAWBERRY.01.00.00.19.161"/>
   <project name="platform/external/jpeg" path="external/jpeg" remote="caf" revision="refs/tags/M8960AAAAANLYA1005304"/>
+  <project name="platform/external/jsilver" path="external/jsilver"/>
   <project name="platform/external/libgsm" path="external/libgsm" remote="caf" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
   <project name="platform/external/liblzf" path="external/liblzf" remote="caf" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
   <project name="platform/external/libnfc-nxp" path="external/libnfc-nxp" remote="caf" revision="refs/tags/AU_LINUX_GECKO_ICS_STRAWBERRY.01.00.00.19.161"/>
