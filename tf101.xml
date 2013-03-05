@@ -13,15 +13,27 @@
 	  fetch="git://github.com/corvusmod/" />
   <remote name="mozillaorg"
           fetch="https://git.mozilla.org/releases"/>
+  remote name="vlad"
+	  fetch="git://github.com/vvuk/" />
 
-  <default revision="refs/tags/android-4.0.4_r1.2"
+  <default revision="refs/tags/android-android-4.2.1_r1.2"
            remote="aosp"
            sync-j="4" />
 
 <!-- Gonk specific things and forks -->
+<!-- Original
+
   <project path="build" name="platform_build" remote="b2g" revision="master">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+
+ -->
+
+<!-- build stuff can be cleaned up, but probably can't avoid changes -->
+  <project path="build" name="b2g-n7-build" remote="vlad" revision="b2g-jb">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
   <project path="dalvik" name="fake-dalvik" remote="b2g" revision="master" />
   <project path="gaia" name="gaia.git" remote="mozillaorg" revision="master" />
   <project path="gecko" name="gecko.git" remote="mozillaorg" revision="master" />
