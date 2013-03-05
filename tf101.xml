@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+<remote name="mozillaorg" fetch="https://git.mozilla.org/releases"/>
 <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
 <remote name="corvusmod" fetch="https://github.com/corvusmod/"/>
 <remote fetch="git://github.com/" name="github" review="null"/>
@@ -10,9 +11,9 @@
 <project remote="github" name="mozilla-b2g/fake-dalvik" path="dalvik" revision="refs/heads/master"/>
 <project remote="github" name="mozilla-b2g/gonk-misc" path="gonk-misc" revision="refs/heads/master"/>
 <project remote="github" name="mozilla-b2g/B2G" path="device/qcom/b2g_common/mozilla-b2g" revision="refs/heads/master"/>
-<project remote="github" name="mozilla-b2g/gaia" path="gaia" revision="refs/heads/master"/>
-<project remote="github" name="mozilla-b2g/mozilla-central" path="gecko" revision="refs/heads/master"/>
 <project remote="github" name="mozilla-b2g/moztt" path="moztt" revision="refs/heads/master"/>
+<project name="gaia.git" path="gaia" remote="mozillaorg" revision="master" />
+<project name="gecko.git" path="gecko" remote="mozillaorg" revision="master" />
 
 <!-- Stock Android things -->
 <project name="quic/b2g/build" path="device/qcom/b2g_common" revision="refs/heads/master"/>
