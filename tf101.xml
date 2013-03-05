@@ -48,9 +48,7 @@
   <project path="device/common" name="device/common" />
   <project path="device/sample" name="device/sample" />
   <project path="external/aac" name="platform/external/aac" />
-  <project name="platform/external/bluetooth/bluez" path="external/bluetooth/bluez"/>
-  <project name="platform/external/bluetooth/glib" path="external/bluetooth/glib"/>
-  <project name="platform/external/bluetooth/hcidump" path="external/bluetooth/hcidump"/>
+  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" revision="refs/tags/android-4.2.1_r1_"/>
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" />
