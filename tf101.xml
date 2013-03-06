@@ -148,6 +148,7 @@
   <project path="system/vold" name="platform/system/vold" />
   <project path="external/llvm" name="platform/external/llvm" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
+  <project path="libnativehelper" name="platform/libnativehelper" />
 
   <!-- TF101 specific things -->
   <project path="device/asus/tf101" name="device_asus_tf101" remote="corvusmod" revision="jellybean_4.2" />
