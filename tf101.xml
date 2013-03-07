@@ -10,7 +10,7 @@
   <remote name="mozilla"
 	  fetch="git://github.com/mozilla/" />
   <remote name="corvusmod"
-	  fetch="git://github.com/corvusmod/" />
+	  fetch="https://github.com/corvusmod/" />
   <remote name="mozillaorg"
           fetch="https://git.mozilla.org/releases"/>
   <remote name="vlad"
