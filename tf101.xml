@@ -32,6 +32,7 @@
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
   <project path="external/moztt" name="moztt" remote="b2g" revision="master" />
   <project path="external/screencap-gonk" name="screencap-gonk" remote="b2g" revision="master" />
+  <project path="external/busybox" name="busybox" remote="b2g" revision="master" />
 
 
   <!-- Stock Android things -->
